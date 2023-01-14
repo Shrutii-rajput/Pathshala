@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Questrial&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&family=Questrial&display=swap');
+
+:root {
+    --gilroy: 'Roboto Condensed', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(207, 207, 207, 0.884);
+    position: fixed;
+    background-color: rgb(255, 255, 255, 1);
+    z-index: +1;
+}
+
+.navigation {
+    display: flex;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.icon {
+    height: 42px;
+    width: 250;
+    margin: 19px 25px;
+}
+
+.nav-center .head {
+    display: flex;
+}
+
+.head {
+    margin: 34px 5px;
+}
+
+.head li {
+    list-style: none;
+    padding: 0 10px 0 15px;
+}
+
+.head .dropdown {
+    border-style: none;
+    color: #4F516B;
+    font-size: 14px;
+    font-family: var(--gilroy);
+}
+
+.head li a {
+    text-decoration: none;
+    color: #4F516B;
+    font-size: 14px;
+    font-family: var(--gilroy);
+}
+
+.nav-right ul {
+    display: flex;
+}
+
+.nav-right ul li {
+    list-style: none;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: #444BAB;
+    font-size: 16px;
+    font-family: var(--gilroy);
+    padding-right: 20px;
+
+}
+
+.nav-right ul li button {
+    width: 189px;
+    height: 40px;
+    background-image: linear-gradient(to right, #444BAB, #3AA2C1);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: var(--poppins);
+}
+
+.box1 {
+    display: flex;
+    height: 700px;
+}
+
+.box1 .left .text {
+    margin: 100px 20px 20px 133px;
+}
+
+.box1 .left .text .norm {
+    color: #444557;
+    font-weight: 600;
+    font-family: var(--poppins);
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.box1 .left .text .grad {
+    background-image: linear-gradient(to right, #303ABB, #3CA5C2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-family: var(--poppins);
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.box1 .left .image-grids {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 162px;
+    margin: 10px 10px 10px 105px;
+    row-gap: 10px;
+}
+
+.box1 .left button {
+    margin-top: 40px;
+    margin-left: 123px;
+    width: 302px;
+    height: 56px;
+    border-radius: 6px;
+    border: none;
+    background-image: linear-gradient(to right, #303ABB, #3CA5C2);
+    color: white;
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box1 .left .in {
+    margin-top: 44px;
+    margin-left: 123px;
+    font-style: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    color: #263238;
+}
+
+.box1 .right .box {
+    margin-top: 64px;
+    float: right;
+    background-image: linear-gradient(to bottom, rgba(68, 75, 171, 1), rgba(99, 167, 211, 0.2656), rgba(110, 200, 225, 0));
+    height: 489px;
+    width: 235px;
+}
+
+.box1 .right .fom {
+    background: #FFFFFF;
+    margin-top: 134px;
+    margin-right: 10px;
+    height: 500px;
+    width: 450px;
+    border: 2px solid rgba(174, 178, 203, 0.22);
+    border-radius: 8px;
+    position: absolute;
+    z-index: +1;
+}
+
+.box1 .right .fom .l1 {
+    margin-top: 26px;
+    margin-left: 128px;
+    font-style: var(--poppins);
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgba(79, 81, 107, 1);
+}
+
+.box1 .right .fom .l2 {
+    margin-left: 70px;
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: var(--poppins);
+    color: rgba(79, 81, 107, 1);
+}
+
+.box1 .right .fom form {
+    margin: 20px 22px;
+}
+
+.box1 .right .fom form label {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: var(--poppins);
+    color: rgba(115, 113, 113, 1);
+}
+
+.box1 .right .fom form input {
+    width: 400px;
+    height: 48px;
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 6px;
+    margin-bottom: 16px;
+    margin-top: 4px;
+}
+
+.box1 .right .fom form button {
+    margin-top: 25px;
+    width: 400px;
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    background-image: linear-gradient(to right, #303ABB, #3CA5C2);
+    color: white;
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: 600;
+}

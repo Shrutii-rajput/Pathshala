@@ -323,7 +323,7 @@ header {
     font-weight: 600;
     color: #444557;
 }
-.grid{
+.grid-4{
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-top: 84px;
@@ -332,10 +332,10 @@ header {
     width: fit-content;
     margin-bottom: 140px;
 }
-.grid div{
+.grid-4 div{
     align-items: center;
 }
-.grid h2{
+.grid-4 h2{
     background-image: linear-gradient(to top, #444BAB, #3AA2C1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -345,7 +345,7 @@ header {
     display: flex;
     justify-content: center;
 }
-.grid p{
+.grid-4 p{
     font-size: 20px;
     font-weight: 400;
     font-family: var(--Inter);
@@ -353,4 +353,116 @@ header {
     margin-top: 7px;
     display: flex;
     justify-content: center;
+}
+.offer{
+    text-align: center;
+}
+.offer p{
+    font-style: var(--poppins);
+    font-size: 20px;
+    font-weight: 600;
+    color: #444CAB;
+    margin-bottom: 18px;
+}
+.offer h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-style: var(--poppins);
+    color: #444557;
+}
+.box2{
+    margin-top: 125px;
+    margin-left: 122px;
+    display: flex;
+}
+.box2 img{
+    float: left;
+    width: 490px;
+    height: 327px;
+    margin-right: 55px;
+    border-radius: 10px;
+}
+.box2 .text{
+    float: left;
+}
+.box2 .text h2 , .box3 .text h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #4F516B;
+    padding-top: 50px;
+    padding-bottom: 19px;
+}
+.box2 .text p, .box3 .text p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #505050;
+}
+.box2 .text button , .box3 .text button{
+    margin-top: 36px;
+    width: 184px;
+    height: 49px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #444BAB, #3AA2C1);
+    border-image-slice: 1;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    background-image: linear-gradient(to top, #444BAB, #3AA2C1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box3 {
+    display: flex;
+    margin-top: 80px;
+}
+.box3 .text{
+    float: left;
+    width: 605px;
+    margin-right: 80px;
+    margin-left: 124px;
+}
+.box3 img{
+    float: left;
+}
+.box4 {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 248px;
+}
+.box4 .text{
+    float: left;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 1600px;
+}
+.box4 .text h5{
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: var(--poppins);
+    color: #444BAB;
+}
+.box4 .text h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #4F516B;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+.box4 .text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #444557;
+}
+.box4 .grid{
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: fit-content;
+    gap: 30px;
+    margin-right: 50px;
 }
